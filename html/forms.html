@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Forms</title>
+</head>
+<body>
+	<!-- POST results from form to backend -->
+	<form method="POST"> 
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Password: <input type="password" minlength="5" name="password" required><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender: <input type="radio" name="gender" value="male"> Male
+		<input type="radio" name="gender" value="female"> Female<br>
+		Pets: <input type="checkbox" name="cats"> Cats 
+		<input type="checkbox" name="dogs"> Dogs<br>
+		<!-- dropdown select menu -->
+		Favorite Football Team:<br>
+		<select name="Football-Team">
+			<option value="Juventus">Juventus</option>
+			<option value="Tottenham">Tottenham</option>
+			<option value="Real Madrid">Real Madrid</option>
+		</select><hr>
+		<input type="submit" value="Send Info!">
+		<input type="reset">
+	</form>
+</body>
+</html>
