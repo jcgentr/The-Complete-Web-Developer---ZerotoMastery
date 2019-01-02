@@ -1,0 +1,15 @@
+{
+  "name": "bggenerator",
+  "version": "1.0.0",
+  "description": "generate background based on picked colors",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "author": "Jared Gentry",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
